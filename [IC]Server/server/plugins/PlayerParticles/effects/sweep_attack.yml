@@ -1,0 +1,7 @@
+# The name the effect will display as
+# Default: sweep_attack
+effect-name: sweep_attack
+
+# If the effect is enabled or not
+# Default: true
+enabled: true

@@ -1,0 +1,25 @@
+config-version: 1
+settings:
+  rails-machine:
+    enable-fixes: true
+  nether-hoppers:
+    enable-fixes: true
+    worlds:
+      restrict-environment: true
+      enable-worlds: []
+  negative-amount-item:
+    enable-fixes: false
+    notify-message: §b发现玩家 §f$player §b获取到负数物品, 已执行清理!
+    actions:
+      removes-item:
+        enable: false
+        fliter-drops: true
+      fliter-players-inv: true
+  portal-container:
+    enable-fixes: true
+  cancelled-placement:
+    enable-fixes: true
+    clears-radius:
+    - 'x : 2'
+    - 'y : 2'
+    - 'z : 2'

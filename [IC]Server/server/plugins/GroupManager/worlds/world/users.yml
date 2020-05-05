@@ -1,0 +1,14 @@
+#
+# GroupManager+ 
+# 	users.yml
+# 翻译&解释 by Fur_Xia
+# 
+# 一个运用GM+特点配置出的优质配置文件(仅user.yml),见：https://github.com/BillZhucn/GroupmanagerPlus/blob/master/examples/example_users.yml
+#
+# 下面是一个简单的例子
+users:
+  example:
+    group: Builder
+    subgroups: []
+    permissions:
+    - example

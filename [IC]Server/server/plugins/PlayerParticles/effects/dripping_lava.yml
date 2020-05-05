@@ -1,0 +1,7 @@
+# The name the effect will display as
+# Default: dripping_lava
+effect-name: dripping_lava
+
+# If the effect is enabled or not
+# Default: true
+enabled: true

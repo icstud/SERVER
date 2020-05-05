@@ -1,0 +1,5 @@
+test:
+  time: 7200
+  name: "&c墨道厚礼"
+  commands:
+    - "pe %player% 6 1"

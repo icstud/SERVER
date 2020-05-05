@@ -1,0 +1,19 @@
+npc-data:
+  npc-7:
+    cooldown: 0
+    right-click-commands:
+    - '[console] trmenu open example %player%'
+    left-click-commands: []
+    price: 0
+  npc-8:
+    cooldown: 0
+    right-click-commands:
+    - '[console] trmenu open buy-and-sell %player%'
+    left-click-commands: []
+    price: 0
+  npc-10:
+    cooldown: 0
+    right-click-commands:
+    - '[console] sign %player%'
+    left-click-commands: []
+    price: 0

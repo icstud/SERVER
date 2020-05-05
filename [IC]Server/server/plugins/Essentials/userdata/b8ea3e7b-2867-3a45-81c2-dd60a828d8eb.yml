@@ -1,0 +1,22 @@
+lastAccountName: 0hGay
+timestamps:
+  login: 1588666954846
+  lastteleport: 1588667272054
+  logout: 1588590453923
+ipAddress: 192.168.0.101
+lastlocation:
+  world: IC
+  x: 170.9417260282961
+  y: 13.095001030076801
+  z: -168.47157203132693
+  yaw: 48.453747
+  pitch: -77.99999
+logoutlocation:
+  world: IC
+  x: 19.866833377680862
+  y: 76.5
+  z: -181.25506920472588
+  yaw: 283.0492
+  pitch: 0.44996744
+afk: true
+money: '9999799'

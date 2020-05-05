@@ -1,0 +1,31 @@
+# The name the style will display as
+# Default: trail
+style-name: trail
+
+# If the style is enabled or not
+# Default: true
+enabled: true
+
+# If the style can be used in /pp fixed
+# Default: false
+can-be-fixed: false
+
+# If the style will only be shown at the player's feet while moving
+# Default: false
+can-toggle-with-movement: false
+
+# How far vertically to offset the style position for fixed effects
+# Default: 0.0
+fixed-effect-offset: 0.0
+
+# How far to offset the player location vertically
+# Default: 0.0
+player-offset: 0.0
+
+# How much to spread the particles
+# Default: 0.1
+spread: 0.1
+
+# If the particle supports speed, how much speed to apply
+# Default: 0.01
+speed: 0.01

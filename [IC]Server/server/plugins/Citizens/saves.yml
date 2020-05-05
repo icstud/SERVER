@@ -1,0 +1,140 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 10
+npc:
+  '4':
+    name: §c§l小游戏§a§l实验室
+    uuid: fbf6ef67-2896-4667-86dd-e756f69fb270
+    traits:
+      type: PLAYER
+      location:
+        world: IC
+        x: '29.5182'
+        y: '77.5'
+        z: '-177.5209'
+        yaw: '89.25055694580078'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      spawned: true
+      inventory:
+        '0':
+          type: DIAMOND_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+          enchantments:
+            DAMAGE_ALL: 1
+      equipment:
+        hand:
+          type: DIAMOND_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+          enchantments:
+            DAMAGE_ALL: 1
+      owner:
+        owner: 0hGay
+        uuid: b8ea3e7b-2867-3a45-81c2-dd60a828d8eb
+    traitnames: spawned,type,location,mounttrait,gravity,equipment,inventory,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    name: §d§l商店
+    uuid: 1f00fa2d-4789-4574-b39c-fbe32bd3bac2
+    traits:
+      type: VILLAGER
+      location:
+        world: IC
+        x: '20.4893'
+        y: '76.5'
+        z: '-180.4259'
+        yaw: '-268.9486999511719'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      spawned: true
+      owner:
+        owner: 0hGay
+        uuid: b8ea3e7b-2867-3a45-81c2-dd60a828d8eb
+    traitnames: spawned,type,location,mounttrait,gravity,equipment,inventory,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    name: §7§l个人信息
+    uuid: 426cbaaf-57b4-4845-8379-b5c0f9ad0ea1
+    traits:
+      type: WOLF
+      inventory:
+        '0':
+          type: ENCHANTED_BOOK
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            enchantmentstorage:
+              PROTECTION_ENVIRONMENTAL: 4
+      location:
+        world: IC
+        x: '11.5907'
+        y: '76.0'
+        z: '-163.5004'
+        yaw: '179.1005096435547'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      equipment:
+        hand:
+          type: ENCHANTED_BOOK
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            enchantmentstorage:
+              PROTECTION_ENVIRONMENTAL: 4
+      spawned: true
+      owner:
+        owner: 0hGay
+        uuid: b8ea3e7b-2867-3a45-81c2-dd60a828d8eb
+    traitnames: spawned,type,location,mounttrait,gravity,equipment,inventory,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    name: §6§l每日签到
+    uuid: 96898006-397a-4c6d-8eb1-36e351a348a1
+    traits:
+      spawned: true
+      type: SNOWMAN
+      location:
+        world: IC
+        x: '20.552'
+        y: '76.5'
+        z: '-174.4552'
+        yaw: '-269.698486328125'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      owner:
+        owner: 0hGay
+        uuid: b8ea3e7b-2867-3a45-81c2-dd60a828d8eb
+    traitnames: spawned,type,location,mounttrait,gravity,equipment,inventory,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

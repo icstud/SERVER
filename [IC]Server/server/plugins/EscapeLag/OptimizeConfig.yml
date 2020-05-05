@@ -1,0 +1,73 @@
+TPSSleep:
+  NoOneFreeze:
+    enable: true
+  SleepMode: NoUse
+EntityClear:
+  enable: true
+  CheckInterval: 600
+  LimitCount: 1200
+  ClearEntityType:
+  - CREEPER
+  - ZOMBIE
+  - CHICKEN
+  - SHEEP
+  - SPIDER
+  - SKELETON
+  - PIG
+  ClearMessage: §a成功清除了过多的实体 ~~(@^_^@)~
+NooneRestart:
+  enable: false
+  TimeLong: 1200
+OverLoadMemoryRestart:
+  enable: false
+  HeapMBLefted: 130
+  KickMessage: 抱歉！由于服务器内存过载，需要重启服务器！
+  WarnMessage: 服务器会在15秒后重启，请玩家不要游戏，耐心等待！ ╮(╯_╰)╭
+  DelayTime: 15
+WaterFlowLimitor:
+  enable: true
+  PerChunkTimes: 2
+AntiRedstone:
+  enable: true
+  drop-item: true
+  Times: 5
+  Message: §c检测到高频红石在 %location% 附近，插件已经将其清除，不许玩了！ (╰_╯)#
+  RemoveBlockList:
+  - REDSTONE_WIRE
+  - REDSTONE_TORCH_ON
+  - REDSTONE_BLOCK
+  - DIODE_BLOCK_ON
+  - REDSTONE_TORCH_OFF
+  - DIODE_BLOCK_OFF
+FireLimitor:
+  enable: true
+  Period: 3000
+TeleportPreLoader:
+  enable: false
+UnloadClear:
+  DROPPED_ITEM:
+    NoCleatDeath: true
+    NoClearTeleport: false
+    enable: true
+  enable: true
+  type:
+  - CREEPER
+  - ZOMBIE
+  - SPIDER
+  - SKELETON
+NoCrowdedEntity:
+  enable: true
+  TypeList:
+  - CREEPER
+  - ZOMBIE
+  - CHICKEN
+  - SHEEP
+  - SPIDER
+  - SKELETON
+  - PIG
+  PerChunkLimit: 30
+AutoSave:
+  Interval: 15
+  enable: true
+AutoSet:
+  enable: true

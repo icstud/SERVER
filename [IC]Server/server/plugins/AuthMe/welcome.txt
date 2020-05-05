@@ -1,0 +1,2 @@
+Welcome {PLAYER} on {SERVER} server
+Have a good time~

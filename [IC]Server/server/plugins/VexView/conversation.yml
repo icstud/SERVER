@@ -1,0 +1,13 @@
+#需要开启自定义任务对话框，你需要先做以下准备
+#如果你使用的是BetonQuest插件，请将配置文件中default_conversation_IO项修改为vexshow
+#如果你使用的是Cronus插件，请将配置文件中dialog-style项修改为vexshow
+#立绘设置
+Innkeeper: 
+   #该NPC的立绘贴图
+   image: '[local]t.png'
+   #该NPC专用的对话框贴图（只能填写本地图片）
+   back: '[local]bq.png'
+   xSize: 239
+   ySize: 261
+   xShow: 120
+   yShow: 130

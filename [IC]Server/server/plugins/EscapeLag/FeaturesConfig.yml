@@ -1,0 +1,106 @@
+Monitor:
+  enable: false
+  ThreadLag:
+    Warning:
+      enable: false
+    Period: 2000
+    DumpStack: false
+AntiSpam:
+  enable: false
+  Period:
+    Period: 1.5
+    Period-Command: 0.5
+    WarnMessage: §c请慢一点，别激动嘛！ _(:з」∠)_
+  Dirty:
+    enable: false
+    List:
+    - 垃圾服*
+    - 疯狗
+    - 马币
+    - 狗op*
+    - mlgb
+    - 草泥馬
+    - 肏
+    - 弱智*
+    - 丢你楼
+    - 您母亲*
+    - 拟吗
+    - 日你
+    - 智障*
+    - 你麻痹*
+    - 狗管理*
+    - 吊你
+    - 屌你
+    - 脑残*
+    - 草泥马*
+    - 杂犬
+    - s.b
+    - 妮玛
+    - 草你
+    - 傻逼*
+    - 全家$
+    - 傻b*
+    - 个逼*
+    - 他媽
+    - 亲娘
+    - 你娘
+    - 飞天$
+    - 贱
+    - 垃圾op*
+    - 二叉
+    - 你妈*
+    - 你吗炸*
+    - laji服
+    - 的逼*
+    - 破服*
+    - 操你
+    - 屁
+    - 親媽
+    - 死妈*
+    - 蛤蟆皮*
+    - 屄
+    - 炸服*
+    - 他妈*
+    - 婊
+    - 买了个表
+    - 屎
+    - sb
+    - 臭b*
+    - 死管理*
+    - 死op*
+    - 你媽
+    - 你母亲*
+    - 干你$
+    - 你吗死*
+    - 马勒戈壁*
+    - 你ma
+    - 狗日
+    - 升天$
+    - 腦殘
+    - 賤
+    - s,b
+    - 丢你老
+    - 烂b*
+    - 哈麻批*
+    - 叼你
+    - 狗服*
+    - 垃圾管理*
+    - s b
+    - 刁你
+    - 傻狗
+    - 艸
+    - 艹
+    - 傻蛋
+    - 司马*
+    - 亲妈$
+    white-list:
+    - 全家桶
+    - 全家福
+    WarnMessage: §c什么事情激动得你都想骂人啦？
+NoEggChangeSpawner:
+  enable: true
+ProtectFarm:
+  enable: false
+NoExplode:
+  enable: false
+  Type: NoBlockBreak

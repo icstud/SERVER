@@ -1,0 +1,72 @@
+# TrMenu Wiki: https://trmenu.trixey.cn
+
+# Do not change
+CONFIG-VERSION: 4
+
+# Locale loading priority
+# Put your locale in the first
+# Contributing Translations: https://trmenu.trixey.cn/other/locale
+LOCALE-PRIORITY:
+  - en_US
+  - zh_CN
+  - zh_TW
+  - vi_VN
+  - th_TH
+  - es_ES
+
+# Options
+OPTIONS:
+  # Auto updater
+  # Enable this option, if there is a new version, it will be downloaded automatically when the server is shut down
+  AUTO-UPDATE: false
+  # Enable this, the plugin will not display the logo when loading
+  SILENT: false
+  # Similar material matches
+  MATERIAL-SIMILAR-DEGREE: 0.8
+  # Enable this will boost the speed opening a menu, However, it still takes time to load all icons
+  FAST-OPEN: false
+  # Player's held item will flicker each time update if you set update-inventory to true or use animated titles
+  # Enable this, plugin will switch player's heldslot to the first empty one (if there is), and recover after close menu
+  ANTI-ITEM-FLICKERING: false
+  # Anti inventory click spam (millisecs)
+  ANTI-CLICK-SPAM: 200
+  # Should enable the menu file listener?
+  MENU-FILE-LISTENER:
+    ENABLE: true
+    NOTIFY: true
+  # Ignore cancelled inventory click event
+  IGNORE-CANCELLED: true
+  # The words used to cancel a catcher action (Support Regex)
+  CATCHER-CANCEL-WORDS:
+    - 'return|break'
+    - 'quit'
+    - 'exit'
+    - 'cancel'
+
+# Offhand only for 1.9+ servers
+# Each option is only for one menu
+SHORTCUT-OPEN:
+  OFFHAND: ''
+  SNEAKING-OFFHAND: 'example'
+  RIGHT-CLICK-PLAYER: ''
+  SNEAKING-RIGHT-CLICK-PLAYER: 'profile'
+
+# Custom loading files as menus
+MENU-FILES: []
+
+# Create menus inside the settings file
+MENUS:
+  - internalMenu:
+      title: 'Internal Menu in settings.yml'
+      shape:
+        - '#########'
+        - '    |    '
+        - '#########'
+      buttons:
+        '#':
+          display:
+            mats: green stained glass pane
+        '|':
+          display:
+            mats: apple
+            name: '&6Nice to meet you~'

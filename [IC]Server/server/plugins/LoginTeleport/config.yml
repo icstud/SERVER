@@ -1,0 +1,7 @@
+portal:
+  spawn: false
+  quit: true
+  void: true
+  portal: false
+locations:
+- '["IC",11.5,76.0,-177.5,-90.15,-4.3500004]'

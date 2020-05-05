@@ -1,0 +1,34 @@
+##
+#  Simplest Whitelist
+#  Powered by DarkSky
+# http://www.darksky.cc
+##
+
+version: -1
+message-denied: "您没有执行此命令的权限"
+message-processing: "正在执行操作..."
+message-processed: "操作完毕!"
+message-exception: "出现异常!线索:%exception%"
+message-notexist: "玩家不在白名单中。"
+message-alreadyexist: "%player%已经在白名单中了。"
+message-permission-denied: "您没有权限这么做"
+message-kick: "&3您目前不能加入古墨余风，请先向管理员申请白名单，然后再进入。"
+message-done: "&3%player%操作成功。"
+message-deleted: "&3%player%被移出白名单."
+message-reload-success: "&3配置文件已被重新加载."
+message-import-begin: "&3正在开始导入，这可能会造成一点点卡顿，请稍等..."
+message-import-faild: "&3无法导入玩家%player%,也许是某些地方出现了冲突.线索:%exception%"
+message-import-success: "&3导入完毕，共有%d名玩家被导入."
+message-purge-begin: "&3正在开始清理玩家，这可能会造成一点点卡顿，请稍等..."
+message-purge-success: "&3清理完毕."
+message-whois:
+    - "&3-------------------------"
+    - "&2玩家名: %player%"
+    - "&2在线UUID: %realuuid%"
+    - "&2离线UUID: %fakeuuid%"
+    - "&2添加时间: %create_date%"
+    - "&2上次登录: %lastlogin_date%"
+    - "&3-------------------------"
+broadcast-add: "%user%把%player%添加进了白名单."
+broadcast-deleted: "%user%把%player%移出了白名单."
+broadcast-refresh: "%user%把%player%的白名单信息刷新了一下."

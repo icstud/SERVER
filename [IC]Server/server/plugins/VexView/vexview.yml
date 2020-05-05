@@ -1,0 +1,13 @@
+#欢迎使用VexView
+#使用前，你必须同意我们的用户准则
+#网址：https://www.vexview.net/index.php?help/eula/
+eula: true
+#是否开启更新检测
+updater: true
+#是否开启服主引导
+guide: true
+#是否在自定义游戏菜单中显示VexView Store的按钮
+vexviewstore: true 
+#是否在切换服务器时清理所有的HUD内容，注意，这可能会导致
+#某些附属插件功能出现问题
+clearhud: false

@@ -1,0 +1,95 @@
+#
+# GroupManager+ 
+# 	groups.yml
+# 翻译&解释 by Fur_Xia
+#
+# 组别 | 在这里为你的一个世界修订一些合适的组别吧~  |  建议使用Notepad++等软件修改本文件
+#
+# 1.任何的继承祖都会使用 "g:" 开头 比如 "g:essentials_default" 这样一个Global组
+# ps. 有关Global组别的权限设定，都被记录在GlobalGroups.yml中(\plugins\GroupManagerPlus\GlobalGroups) 
+#
+# 2.没有前缀"g:"的组为本世界独有的权限组，在本文件中可以设定他们相关权限
+#
+# 3. 本地组继承如果写好了继承树，就可以使用指令"manpromote/mandemote"来快速提升/降低权限组
+#
+#  Default:  <- 组名可以自定义
+#    default: true  <- !!! 选择一个组作为默认组 !!! 如果设置为"true"，这个组就是这个世界的默认组 / 如果设置为"false"就不是这个世界的默认组
+#    permissions:   <- 在这里下面可以增加权限节点，格式： -x.* X代表权限节点提供的插件，*代表x插件的某一权限，如果保持为"*"则代表所有权限
+#    - -bukkit.command.kill <- 在权限节点前加"- "表示负权限，即删去某一权限
+#    inheritance:  <- 继承祖设置来自文件： GlobalGroups.yml (\plugins\GroupManagerPlus\GlobalGroups.yml)
+#    - g:groupmanager_default
+#    - g:bukkit_default
+#    - g:essentials_default
+#    - g:towny_default
+#    info:   <- 包含玩家的前缀/后缀
+#      prefix: '&e'
+#      build: false   <- 依赖 AntiBuild 插件 (https://ci.drtshock.net/job/essentialsx/)
+#      suffix: ''
+#
+# 接下来就可以在下面的文件中更改了，但是请注意格式！！！！
+#
+#这个"groups:"要保持在文件最上处(请勿删除!)
+groups:
+  Default:
+    default: true
+    permissions:
+    - -bukkit.command.kill
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&e'
+      build: false
+      suffix: ''
+  Builder:
+    default: false
+    permissions: []
+    inheritance:
+    - default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      prefix: '&2'
+      build: true
+      suffix: ''
+  Moderator:
+    default: false
+    permissions: []
+    inheritance:
+    - builder
+    - g:groupmanager_moderator
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    - g:towny_moderator
+    - g:vanish_moderator
+    info:
+      prefix: '&5'
+      build: true
+      suffix: ''
+  Admin:
+    default: false
+    permissions: []
+    inheritance:
+    - moderator
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:towny_admin
+    - g:vanish_admin
+    info:
+      prefix: '&c'
+      build: true
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - '*'
+    - -vanish.*
+    inheritance:
+    - admin
+    info:
+      prefix: '&4'
+      build: true
+      suffix: ''

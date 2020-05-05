@@ -1,0 +1,7 @@
+# The name the effect will display as
+# Default: note
+effect-name: note
+
+# If the effect is enabled or not
+# Default: true
+enabled: true

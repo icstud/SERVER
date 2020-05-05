@@ -1,0 +1,7 @@
+# The name the effect will display as
+# Default: elder_guardian
+effect-name: elder_guardian
+
+# If the effect is enabled or not
+# Default: false
+enabled: false

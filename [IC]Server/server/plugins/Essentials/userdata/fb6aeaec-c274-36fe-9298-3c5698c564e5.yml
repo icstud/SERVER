@@ -1,0 +1,21 @@
+lastAccountName: Pumpkin4Stick
+timestamps:
+  login: 1588474376182
+  logout: 1588476298034
+  lastteleport: 1588476281111
+ipAddress: 192.168.0.101
+logoutlocation:
+  world: IC
+  x: 114.71487823218331
+  y: 92.6267754530769
+  z: -133.91508726291755
+  yaw: 235.00862
+  pitch: 16.635567
+lastlocation:
+  world: IC
+  x: 165.34970362426048
+  y: 76.0
+  z: -170.69212080120252
+  yaw: -103.624115
+  pitch: 42.228825
+afk: false

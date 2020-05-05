@@ -1,0 +1,7 @@
+# The name the effect will display as
+# Default: item_snowball
+effect-name: item_snowball
+
+# If the effect is enabled or not
+# Default: true
+enabled: true

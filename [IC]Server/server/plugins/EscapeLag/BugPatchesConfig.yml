@@ -1,0 +1,36 @@
+AntiWEcalc:
+  WarnMessage: §c禁止利用WE bug炸服! =.=
+AntiLongStringCrash:
+  enable: true
+  WarnMessage: §c警告！严禁利用长字符串来导致服务器崩溃！
+AntiCrashOP:
+  enable: true
+  WarnMessage: §c你貌似卡OP了,已将OP去除!
+AntiFakeDeath:
+  KickMessage: §c严禁卡假死BUG！
+  enable: true
+NoDoubleOnline:
+  enable: true
+  KickMessage: 抱歉，服务器中您已经在线了。ԅ(¯ㅂ¯ԅ)
+AntiBedExplode:
+  enable: true
+  TipMessage: §r你不能在这里睡觉
+AntiBreakUseingChest:
+  enable: true
+  WarnMessage: §c抱歉！您不可以破坏一个正在被使用的容器
+AntiCheatBook:
+  enable: true
+AntiCrashSign:
+  enable: true
+  WarnMessage: §c您输入的内容太长了！
+AntiDupeDropItem:
+  enable: true
+patches:
+  vaildate-actions:
+    enable: true
+AntiSkullCrash:
+  enable: true
+AntiCrashChat:
+  enable: true
+  SpecialStringWarnMessage: §c严禁使用崩服代码炸服！
+  ColorChatWarnMessage: §c抱歉！为了防止服务器被破坏，服务器禁止使用颜色代码.

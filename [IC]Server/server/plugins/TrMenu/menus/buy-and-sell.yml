@@ -1,0 +1,41 @@
+Title: '&a&l商店'
+
+Layout:
+  - ''
+  - '    A'
+  - ''
+
+Open-Commands:
+  - 'sellapple'
+  - 'buyapple'
+
+Options:
+  Depend-Expansions:
+    - 'vault'
+    - 'checkitem'
+
+Buttons:
+  'A':
+    update: 20
+    display:
+      mats: 'apple'
+      lore:
+        - - ''
+          - '&f· &7购买: &e100$'
+          - '&f· &7回收: &220$'
+          - ''
+          - '&3左键购买 &8| &6右键回收'
+          - ''
+    actions:
+      all: ['sound: BLOCK_NOTE_BLOCK_PLING-1-2']
+      left:
+        - 'Close'
+        - 'Tell: &c您没有足够的墨币_||_Break:<Requirement: %vault_eco_balance% < 100>'
+        - 'Console: eco take %player_name% 100'
+        - 'Console: give %player_name% apple 1'
+        - 'Title: <title=&3&l购买成功><subtitle=&8[&a&l+&8] &c&l苹果 &7* &61>'
+      right:
+        - 'Close'
+        - 'Tell: &c您没有可回收的货物_||_Break:<Requirement: "%checkitem_mat:APPLE,amt:1%" == "no">'
+        - 'Console: eco give %player_name% 20'
+        - 'Console: clear %player_name% apple 1'

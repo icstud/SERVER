@@ -1,0 +1,194 @@
+--------------------[New debug session]--------------------
+[02.05.2020 14:57:09] DEBUG: Loaded pl language
+[02.05.2020 14:57:09] DEBUG: Loaded en language
+[02.05.2020 14:57:09] DEBUG: Loaded de language
+[02.05.2020 14:57:09] DEBUG: Loaded fr language
+[02.05.2020 14:57:09] DEBUG: Loaded cn language
+[02.05.2020 14:57:09] DEBUG: Loaded es language
+[02.05.2020 14:57:09] DEBUG: Loaded nl language
+[02.05.2020 14:57:09] BROAD: Deploying default package!
+[02.05.2020 14:57:09] DEBUG: Connecting to MySQL database
+[02.05.2020 14:57:09] DEBUG: MySQL says: Must specify port after ':' in connection string
+[02.05.2020 14:57:09] BROAD: Using SQLite for storing data!
+[02.05.2020 14:57:09] DEBUG: Initializing updater with version v51, destination is v51
+[02.05.2020 14:57:09] BROAD: Configuration up to date!
+[02.05.2020 14:57:09] DEBUG: Initializing static events
+[02.05.2020 14:57:09] DEBUG: Searching package default
+[02.05.2020 14:57:09] DEBUG: There are no static events defined, skipping
+[02.05.2020 14:57:09] DEBUG: Static events initialization done
+[02.05.2020 14:57:09] DEBUG: Registering health condition type
+[02.05.2020 14:57:09] DEBUG: Registering permission condition type
+[02.05.2020 14:57:09] DEBUG: Registering experience condition type
+[02.05.2020 14:57:09] DEBUG: Registering tag condition type
+[02.05.2020 14:57:09] DEBUG: Registering point condition type
+[02.05.2020 14:57:09] DEBUG: Registering and condition type
+[02.05.2020 14:57:09] DEBUG: Registering or condition type
+[02.05.2020 14:57:09] DEBUG: Registering time condition type
+[02.05.2020 14:57:09] DEBUG: Registering weather condition type
+[02.05.2020 14:57:09] DEBUG: Registering height condition type
+[02.05.2020 14:57:09] DEBUG: Registering item condition type
+[02.05.2020 14:57:09] DEBUG: Registering hand condition type
+[02.05.2020 14:57:09] DEBUG: Registering location condition type
+[02.05.2020 14:57:09] DEBUG: Registering armor condition type
+[02.05.2020 14:57:09] DEBUG: Registering effect condition type
+[02.05.2020 14:57:09] DEBUG: Registering rating condition type
+[02.05.2020 14:57:09] DEBUG: Registering sneak condition type
+[02.05.2020 14:57:09] DEBUG: Registering random condition type
+[02.05.2020 14:57:09] DEBUG: Registering journal condition type
+[02.05.2020 14:57:09] DEBUG: Registering testforblock condition type
+[02.05.2020 14:57:09] DEBUG: Registering empty condition type
+[02.05.2020 14:57:09] DEBUG: Registering party condition type
+[02.05.2020 14:57:09] DEBUG: Registering monsters condition type
+[02.05.2020 14:57:09] DEBUG: Registering objective condition type
+[02.05.2020 14:57:09] DEBUG: Registering check condition type
+[02.05.2020 14:57:09] DEBUG: Registering chestitem condition type
+[02.05.2020 14:57:09] DEBUG: Registering score condition type
+[02.05.2020 14:57:09] DEBUG: Registering riding condition type
+[02.05.2020 14:57:09] DEBUG: Registering world condition type
+[02.05.2020 14:57:09] DEBUG: Registering gamemode condition type
+[02.05.2020 14:57:09] DEBUG: Registering achievement condition type
+[02.05.2020 14:57:09] DEBUG: Registering variable condition type
+[02.05.2020 14:57:09] DEBUG: Registering message event type
+[02.05.2020 14:57:09] DEBUG: Registering objective event type
+[02.05.2020 14:57:09] DEBUG: Registering command event type
+[02.05.2020 14:57:09] DEBUG: Registering tag event type
+[02.05.2020 14:57:09] DEBUG: Registering journal event type
+[02.05.2020 14:57:09] DEBUG: Registering teleport event type
+[02.05.2020 14:57:09] DEBUG: Registering explosion event type
+[02.05.2020 14:57:09] DEBUG: Registering lightning event type
+[02.05.2020 14:57:09] DEBUG: Registering point event type
+[02.05.2020 14:57:09] DEBUG: Registering give event type
+[02.05.2020 14:57:09] DEBUG: Registering take event type
+[02.05.2020 14:57:09] DEBUG: Registering conversation event type
+[02.05.2020 14:57:09] DEBUG: Registering kill event type
+[02.05.2020 14:57:09] DEBUG: Registering effect event type
+[02.05.2020 14:57:09] DEBUG: Registering spawn event type
+[02.05.2020 14:57:09] DEBUG: Registering time event type
+[02.05.2020 14:57:09] DEBUG: Registering weather event type
+[02.05.2020 14:57:09] DEBUG: Registering folder event type
+[02.05.2020 14:57:09] DEBUG: Registering setblock event type
+[02.05.2020 14:57:09] DEBUG: Registering damage event type
+[02.05.2020 14:57:09] DEBUG: Registering party event type
+[02.05.2020 14:57:09] DEBUG: Registering clear event type
+[02.05.2020 14:57:09] DEBUG: Registering run event type
+[02.05.2020 14:57:09] DEBUG: Registering givejournal event type
+[02.05.2020 14:57:09] DEBUG: Registering sudo event type
+[02.05.2020 14:57:09] DEBUG: Registering chestgive event type
+[02.05.2020 14:57:09] DEBUG: Registering chesttake event type
+[02.05.2020 14:57:09] DEBUG: Registering chestclear event type
+[02.05.2020 14:57:09] DEBUG: Registering compass event type
+[02.05.2020 14:57:09] DEBUG: Registering cancel event type
+[02.05.2020 14:57:09] DEBUG: Registering score event type
+[02.05.2020 14:57:09] DEBUG: Registering lever event type
+[02.05.2020 14:57:09] DEBUG: Registering door event type
+[02.05.2020 14:57:09] DEBUG: Registering if event type
+[02.05.2020 14:57:09] DEBUG: Registering variable event type
+[02.05.2020 14:57:09] DEBUG: Registering location objective type
+[02.05.2020 14:57:09] DEBUG: Registering block objective type
+[02.05.2020 14:57:09] DEBUG: Registering mobkill objective type
+[02.05.2020 14:57:09] DEBUG: Registering action objective type
+[02.05.2020 14:57:09] DEBUG: Registering die objective type
+[02.05.2020 14:57:09] DEBUG: Registering craft objective type
+[02.05.2020 14:57:09] DEBUG: Registering smelt objective type
+[02.05.2020 14:57:09] DEBUG: Registering tame objective type
+[02.05.2020 14:57:09] DEBUG: Registering delay objective type
+[02.05.2020 14:57:09] DEBUG: Registering arrow objective type
+[02.05.2020 14:57:09] DEBUG: Registering experience objective type
+[02.05.2020 14:57:09] DEBUG: Registering step objective type
+[02.05.2020 14:57:09] DEBUG: Registering logout objective type
+[02.05.2020 14:57:09] DEBUG: Registering password objective type
+[02.05.2020 14:57:09] DEBUG: Registering fish objective type
+[02.05.2020 14:57:09] DEBUG: Registering enchant objective type
+[02.05.2020 14:57:09] DEBUG: Registering shear objective type
+[02.05.2020 14:57:09] DEBUG: Registering chestput objective type
+[02.05.2020 14:57:09] DEBUG: Registering potion objective type
+[02.05.2020 14:57:09] DEBUG: Registering vehicle objective type
+[02.05.2020 14:57:09] DEBUG: Registering consume objective type
+[02.05.2020 14:57:09] DEBUG: Registering variable objective type
+[02.05.2020 14:57:09] DEBUG: Registering kill objective type
+[02.05.2020 14:57:09] DEBUG: Registering breed objective type
+[02.05.2020 14:57:09] DEBUG: Registering simple conversation IO type
+[02.05.2020 14:57:09] DEBUG: Registering tellraw conversation IO type
+[02.05.2020 14:57:09] DEBUG: Registering chest conversation IO type
+[02.05.2020 14:57:09] DEBUG: Registering player variable type
+[02.05.2020 14:57:09] DEBUG: Registering npc variable type
+[02.05.2020 14:57:09] DEBUG: Registering objective variable type
+[02.05.2020 14:57:09] DEBUG: Registering point variable type
+[02.05.2020 14:57:09] DEBUG: Registering item variable type
+[02.05.2020 14:57:09] DEBUG: Registering version variable type
+[02.05.2020 14:57:09] DEBUG: Registering location variable type
+[02.05.2020 14:57:09] DEBUG: Registering npckill objective type
+[02.05.2020 14:57:09] DEBUG: Registering npcinteract objective type
+[02.05.2020 14:57:09] DEBUG: Registering movenpc event type
+[02.05.2020 14:57:09] DEBUG: Registering money event type
+[02.05.2020 14:57:09] DEBUG: Registering money condition type
+[02.05.2020 14:57:09] DEBUG: Registering money variable type
+[02.05.2020 14:57:09] DEBUG: Registering permission event type
+[02.05.2020 14:57:09] DEBUG: Registering paste event type
+[02.05.2020 14:57:09] DEBUG: Registering ph variable type
+[02.05.2020 14:57:09] BROAD: Autoupdater enabled!
+[02.05.2020 14:57:09] BROAD: BetonQuest succesfully enabled!
+[02.05.2020 14:57:11] DEBUG: Registering vexshow conversation IO type
+[02.05.2020 14:57:14] DEBUG: Loading stuff in package default
+[02.05.2020 14:57:14] DEBUG:   Event 'default.wood_start' loaded
+[02.05.2020 14:57:14] DEBUG:   Event 'default.tag_wood_started' loaded
+[02.05.2020 14:57:14] DEBUG:   Event 'default.tag_wood_done' loaded
+[02.05.2020 14:57:14] DEBUG:   Event 'default.tag_wood_paid' loaded
+[02.05.2020 14:57:14] DEBUG:   Event 'default.entry_wood_started' loaded
+[02.05.2020 14:57:14] DEBUG:   Event 'default.entry_wood_done' loaded
+[02.05.2020 14:57:14] DEBUG:   Event 'default.entry_wood_paid' loaded
+[02.05.2020 14:57:14] DEBUG:   Event 'default.wood_reward' loaded
+[02.05.2020 14:57:14] DEBUG:   Event 'default.remove_wood' loaded
+[02.05.2020 14:57:14] DEBUG:   Condition 'default.wood_started' loaded
+[02.05.2020 14:57:14] DEBUG:   Condition 'default.wood_done' loaded
+[02.05.2020 14:57:14] DEBUG:   Condition 'default.wood_paid' loaded
+[02.05.2020 14:57:14] DEBUG:   Condition 'default.has_wood' loaded
+[02.05.2020 14:57:14] DEBUG:   Objective 'default.wood' loaded
+[02.05.2020 14:57:14] DEBUG: Loading innkeeper conversation from default package
+[02.05.2020 14:57:14] DEBUG: Variable default-%player% loaded
+[02.05.2020 14:57:14] DEBUG: Conversation loaded: 16 NPC options and 15 player options
+[02.05.2020 14:57:14] DEBUG: Everything in package default loaded
+[02.05.2020 14:57:14] BROAD: There are 4 conditions, 9 events, 1 objectives and 1 conversations loaded from 1 packages.
+[02.05.2020 14:57:14] ERROR: Could not get the latest dev build number
+[02.05.2020 14:57:55] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player 0hGay
+[02.05.2020 14:57:55] DEBUG: Inserting data for 0hGay
+[02.05.2020 15:04:20] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player JZGSKJMW
+[02.05.2020 15:04:20] DEBUG: Inserting data for JZGSKJMW
+[02.05.2020 15:14:27] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player RqjQAQ
+[02.05.2020 15:14:27] DEBUG: Inserting data for RqjQAQ
+[02.05.2020 15:45:49] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player Pumpkin4Stick
+[02.05.2020 15:45:49] DEBUG: Inserting data for Pumpkin4Stick
+[02.05.2020 15:46:17] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player Pumpkin4Stick
+[02.05.2020 15:46:17] DEBUG: Inserting data for Pumpkin4Stick
+[02.05.2020 16:19:57] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player RqjQAQ
+[02.05.2020 16:19:57] DEBUG: Inserting data for RqjQAQ
+[02.05.2020 16:34:55] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player RqjQAQ
+[02.05.2020 16:34:55] DEBUG: Inserting data for RqjQAQ
+[02.05.2020 17:13:35] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player RqjQAQ
+[02.05.2020 17:13:35] DEBUG: Inserting data for RqjQAQ
+[02.05.2020 17:59:44] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player 0hGay
+[02.05.2020 17:59:44] DEBUG: Inserting data for 0hGay
+[02.05.2020 18:24:05] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player 0hGay
+[02.05.2020 18:24:05] DEBUG: Inserting data for 0hGay
+[02.05.2020 18:50:15] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player 0hGay
+[02.05.2020 18:50:15] DEBUG: Inserting data for 0hGay
+[02.05.2020 19:07:52] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player 0hGay
+[02.05.2020 19:07:52] DEBUG: Inserting data for 0hGay
+[02.05.2020 19:12:00] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player 0hGay
+[02.05.2020 19:12:00] DEBUG: Inserting data for 0hGay
+[02.05.2020 19:17:38] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player 0hGay
+[02.05.2020 19:17:38] DEBUG: Inserting data for 0hGay
+[02.05.2020 19:17:47] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player RqjQAQ
+[02.05.2020 19:17:47] DEBUG: Inserting data for RqjQAQ
+[02.05.2020 19:32:56] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player RqjQAQ
+[02.05.2020 19:32:56] DEBUG: Inserting data for RqjQAQ
+[02.05.2020 19:33:21] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player 0hGay
+[02.05.2020 19:33:21] DEBUG: Inserting data for 0hGay
+[02.05.2020 20:35:20] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player Pumpkin4Stick
+[02.05.2020 20:35:20] DEBUG: Inserting data for Pumpkin4Stick
+[02.05.2020 20:35:44] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player Pumpkin4Stick
+[02.05.2020 20:35:44] DEBUG: Inserting data for Pumpkin4Stick
+[02.05.2020 20:59:37] DEBUG: There are 0 objectives, 0 tags, 0 points, 0 journal entries and 0 items loaded for player 0hGay
+[02.05.2020 20:59:37] DEBUG: Inserting data for 0hGay
+[02.05.2020 21:14:59] DEBUG: Killing all timers on disable
+[02.05.2020 21:14:59] BROAD: BetonQuest succesfully disabled!

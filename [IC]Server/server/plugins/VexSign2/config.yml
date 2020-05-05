@@ -1,0 +1,46 @@
+VexSign2:
+  #是否使用Mysql存储数据，如果为false，下面的数据库地址之类的请无视
+  UseMySQL: false
+  #数据库地址
+  MySQL: 
+    IP: 127.0.0.1
+    UserName: fzmxer
+    PassWord: 123456
+    DatabaseName: fzmxer
+    DataTableName: VexSign2
+    Port: 3306
+  #是否使用VexView界面
+  VexView: true
+  #签到界面，默认P键，填-1则不使用按键
+  Keys: 25
+  #Hub图标
+  Hubs:
+    #是否启用
+    Enable: true
+    #Hub图片
+    Image: 
+      url: [local]'hub.png'
+      x: 1
+      y: 1
+      w: 128
+      h: 128
+      xs: 24
+      ys: 24
+    #Hub文字
+    Text: '&b签到(P)'
+    #显示的延迟(服务器越卡，延迟需要设置的越高)，单位 秒
+    Delay: 6
+  ##检查更新
+  Update: true
+  ##未签到是否在加入游戏时自动弹出Gui
+  Auto: true
+  ##如果使用外置登录 或不使用登录插件 请把这个设置为false
+  Login: false
+  ##补签卡Lore
+  Card:
+    ##仅支持英文ID 暂不支持子ID
+    type: 'PAPER'
+    name: '§e§l补签卡'
+    lore:
+      - '§e§l打开GUI补签，放在身上即可'
+      - '§e§l由 VexSign2 生成'

@@ -1,0 +1,15 @@
+config-version: 1
+settings:
+  no-styx-chunks:
+    enable: false
+    chances:
+      player-teleport: true
+      player-exit: true
+      time-interval:
+        enable: true
+        periods-in-mins: 15
+  delayed-chunk-keeper:
+    enable: false
+    delay-in-seconds: 10
+    max-unload-chunks-per-tick: 30
+    post-skip-ticks: 1

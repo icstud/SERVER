@@ -1,0 +1,7 @@
+# The name the effect will display as
+# Default: damage_indicator
+effect-name: damage_indicator
+
+# If the effect is enabled or not
+# Default: true
+enabled: true

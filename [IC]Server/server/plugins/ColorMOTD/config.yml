@@ -1,0 +1,25 @@
+## ColorMOTD v1.5.3 Config
+# http://www.mcbbs.net/thread-448326-1-1.html
+Motd:
+- '            &7&l古墨余风&a&l服务器&e&l欢迎您~\n           &a&l生存·PVP&e&l[&c&l1.11.2-1.15.1&e&l]\n&d现在时间:
+  &e%DATE% %TIME%'
+- '            &7&l古墨余风&a&l服务器&e&l欢迎您~\n      &b&l记得邀请小伙伴一起来玩哦~owo\n&d现在时间: &e%DATE%
+  %TIME%'
+- '            &7&l古墨余风&a&l服务器&e&l欢迎您~\n          &c&lServer_Version&b&l&n2.9.1版本~\n&d现在时间:
+  &e%DATE% %TIME%'
+OnlineMsg: '&a在线人数 &6%ONLINE%&7/&6%MAXPLAYER%'
+Players:
+- '&a&l腐竹: &b&lLimeQWQ'
+- '&e&lQ群: &7&l178286369'
+- '&6&l服务器TPS: &a&l19.74'
+- '&d&l服务器状态: &b&l良好'
+- '&6&l时间: &b&l%TIME%'
+- '&5&l日期: &6&l%DATE%'
+ServiceModeMOTD: '&c服务器维护中,请等待维护完成...'
+ServiceModeKickCause: '&c服务器维护中,请等待维护完成再进入服务器!'
+useBungeeCord: false
+redisBungee: false
+AttributionServer: taobao
+TPSFormat: '0.0'
+showDelay: false
+UpdateChecker: true

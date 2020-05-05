@@ -1,0 +1,27 @@
+# MessageAnnouncer v1.11.0 Main configuration
+announcer_enabled: true
+announcer_random: true
+announce_interval: 60
+sound:
+  enabled: true
+  sound_name: NOTE_PLING
+  volume: 10
+  pitch: 1
+interval_announcement_list:
+- default
+- vote
+announcements:
+  default:
+  - '{"text": "&c&l公告"}'
+  - '{"text": "&a---------------------------------------------------------"}'
+  - '{"text": "&7&l古墨余风&a&l服务器&b&n&l3.0.1更新!"}'
+  - '{"text": "&6&l服务器性能优化-使用区块缓加载技术"}'
+  - '{"text": "&e&l修复了若干Bug"}'
+  - '{"text": "&a---------------------------------------------------------"}'
+  vote:
+  - '{"text": "&a-------------------------"}'
+  - '{"text": "&7&l墨云工作室&b&l官服"}'
+  - '{"text": "&6&lQ群: &b&l178286369"}'
+  - '{"text": "&e&l网络情况: 0ms"}'
+  - '{"text": "&6&lHave &e&la &5&lgood &a&ltime&7~"}'
+  - '{"text": "&a-------------------------"}'

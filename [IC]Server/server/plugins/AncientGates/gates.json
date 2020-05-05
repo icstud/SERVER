@@ -1,0 +1,63 @@
+{
+  "主城边境1": {
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "SUGARCANE",
+    "command": "say 你无权跨越边界",
+    "commandtype": "PLAYER",
+    "cost": 0.0
+  },
+  "主城边境1-1": {
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "command": "say 欢迎来到古墨余风服务器主城",
+    "commandtype": "PLAYER",
+    "cost": 0.0
+  },
+  "主城边境2": {
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "SUGARCANE",
+    "command": "say 你无权跨越边界",
+    "commandtype": "PLAYER",
+    "cost": 0.0
+  },
+  "主城边境2-2": {
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "command": "say 欢迎来到古墨余风服务器主城",
+    "commandtype": "PLAYER",
+    "cost": 0.0
+  },
+  "主城边境3": {
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "SUGARCANE",
+    "command": "say 你无权跨越边界",
+    "commandtype": "PLAYER",
+    "cost": 0.0
+  },
+  "主城边境3-3": {
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "command": "say 欢迎来到古墨余风服务器主城",
+    "commandtype": "PLAYER",
+    "cost": 0.0
+  },
+  "商店": {
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  }
+}
